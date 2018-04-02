@@ -52,7 +52,7 @@
                         <td>{{$cart->price}}</td>
                         <td>{{$cart->qty}}</td>
                         <td>{{$cart->subtotal}}</td>
-                        <td>{{$cart->userName}}</td>
+                        <td>{{$cart->users->name}}</td>
                         <td>{{$cart->adres}}</td>
                         <td>{{$cart->phone}}</td>
                         <td>
